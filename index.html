@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>ZackHost Website Monitor</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- TOP -->
+    <div class="topbar">
+
+        <h1>🚀 ZackHost Website Monitor</h1>
+
+        <div class="live-box">
+            <div class="live-dot"></div>
+            <span>LIVE</span>
+        </div>
+
+    </div>
+
+    <!-- CARDS -->
+    <div class="cards">
+
+        <div class="card">
+            <h3>Status</h3>
+            <p id="status">Loading...</p>
+        </div>
+
+        <div class="card">
+            <h3>Latency</h3>
+            <p id="latency">0 ms</p>
+        </div>
+
+        <div class="card">
+            <h3>Last Check</h3>
+            <p id="last-check">--:--</p>
+        </div>
+
+    </div>
+
+    <!-- GRAPH -->
+    <div class="graph-box">
+
+        <h2>Latency Graph</h2>
+
+        <canvas id="latencyChart"></canvas>
+
+    </div>
+
+</div>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    background:#373338;
+    color:white;
+    font-family:Arial;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding-top:30px;
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.live-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.live-dot{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:#00f95b;
+    box-shadow:0 0 15px #285338;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    flex:1;
+    background:#4b7fd3;
+    padding:20px;
+    border-radius:15px;
+}
+
+.card h3{
+    color:#9beb50;
+}
+
+.card p{
+    font-size:28px;
+    margin-top:10px;
+}
+
+.graph-box{
+    margin-top:30px;
+    background:#7ba55e;
+    padding:20px;
+    border-radius:15px;
+}
